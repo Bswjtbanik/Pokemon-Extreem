@@ -13,6 +13,8 @@
 		17E348B41E910FE100C1CD69 /* Pokemon_Extreem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17E348B21E910FE100C1CD69 /* Pokemon_Extreem.xcdatamodeld */; };
 		17E348B61E910FE100C1CD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E348B51E910FE100C1CD69 /* Assets.xcassets */; };
 		17E348B91E910FE100C1CD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E348B71E910FE100C1CD69 /* LaunchScreen.storyboard */; };
+		17E348C21E9115CB00C1CD69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E348C11E9115CB00C1CD69 /* MapKit.framework */; };
+		17E348C41E91264400C1CD69 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E348C31E91264400C1CD69 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		17E348B51E910FE100C1CD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17E348B81E910FE100C1CD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17E348BA1E910FE100C1CD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E348C11E9115CB00C1CD69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		17E348C31E91264400C1CD69 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E348C41E91264400C1CD69 /* CoreLocation.framework in Frameworks */,
+				17E348C21E9115CB00C1CD69 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,7 @@
 			children = (
 				17E348AA1E910FE100C1CD69 /* Pokemon Extreem */,
 				17E348A91E910FE100C1CD69 /* Products */,
+				17E348C01E9115CA00C1CD69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +72,15 @@
 				17E348B21E910FE100C1CD69 /* Pokemon_Extreem.xcdatamodeld */,
 			);
 			path = "Pokemon Extreem";
+			sourceTree = "<group>";
+		};
+		17E348C01E9115CA00C1CD69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17E348C31E91264400C1CD69 /* CoreLocation.framework */,
+				17E348C11E9115CB00C1CD69 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
